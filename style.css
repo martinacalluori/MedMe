@@ -1,0 +1,105 @@
+body {
+/*  background-color: #ffffff;*/
+    font-family: 'Raleway', sans-serif;
+    background-color: #CDE6F5;
+    padding-top: 10px;
+}
+
+#wrapper {
+  width: 320px;
+  margin: 10px auto;
+  -webkit-user-select: none;
+}
+
+#display {
+  width: 320px;
+  height: 320px;
+/*  background-color: #e8e6e6;*/
+}
+.box1 {
+
+    border: 1px solid #6B8F71;
+    padding-left: 10px;
+}
+
+button {
+    border-radius: 15px 50px;
+    border-color: #6B8F71;
+    width: 120px;
+    height: 50px; 
+}
+.medButton{
+    margin: 10px;
+}
+.bottombutton {
+    margin: 5px;
+}
+
+input {
+    border: 1px solid #6B8F71;
+}
+
+#result {
+  font-size: 190px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+#wgf {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#wgf_btn {
+  width: 250px;
+}
+
+#gather, #displayMeds {
+  margin: 20px auto;
+  text-align: center;
+
+}
+#list_btn {
+}
+
+#hm_result {
+  width: 40px;
+}
+
+#ndx_result {
+  width: 40px;
+}
+
+#widescreen {
+  width: 480px;
+  margin: 85px auto;
+  text-align: center;
+  color: #ffffff;
+  -webkit-user-select: none;
+  display: none;
+}
+
+
+@media only screen and (orientation:portrait) {
+  body {
+    background-color: #ffffff;
+  }
+  #wrapper {
+    display: block;
+  }
+  #widescreen {
+    display: none;
+  }
+}
+
+@media only screen and (orientation:landscape) {
+  body {
+    background-color: #c65a5a;
+  }
+  #wrapper {
+    display: none;
+  }
+  #widescreen {
+    display: block;
+  }
+}

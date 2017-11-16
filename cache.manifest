@@ -1,0 +1,31 @@
+CACHE MANIFEST
+# version - 16
+
+CACHE:
+
+# CSS
+add2home.css
+main.css
+normalize.css
+
+# IMAGES
+images/favicon.ico
+images/safari-pinned-tab.svg
+images/android-chrome-192x192.png
+images/android-chrome-256x256.png
+images/apple-touch-icon.png
+images/favicon-16x16.png
+images/favicon-32x32.png
+images/mstile-150x150.png
+
+# HTML FILES
+index.html
+meds.html
+
+# JAVASCRIPT - SPECIFIC ORDER
+refresh-manifest.js
+add2home.js
+main.js
+
+## Any resources not listed above will require the user to be online.
+NETWORK:

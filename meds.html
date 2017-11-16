@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MedMe</title>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    
+    <!--ICONS-->
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body onload="pageSetUp(); readData();">
+    
+    <div class="wrapper">     
+       
+        <button type="button" name="list_btn" class="medButton" id="list_btn" onclick="jmp2LocalPage('index.html')">Add New</button>
+              <hr>
+               
+        <div class="box1">
+            <p>
+            9:30 AM <br> 
+            Take your first dose of headache medication! <br>
+            1 pill <br>
+            Glass of water
+            </p>
+        </div>
+                
+<!--
+        <form>
+              <div id="displayMeds">
+                <hr>
+                <p>
+                  Name of Med: <br> <input type="text" name="medName" id="medName" placeholder="Med Name">
+                </p>
+                <p name="textdisplayed" id="textdisplayed">
+                    
+                </p>
+                <p>
+                  Quantity: <br> <input type="number" name="quantity" id="quantity" value="1">
+                </p>
+                <p>
+                  Amount Taken Per Day: <br> <input type="number" name="amount" id="amount" value="1">
+                </p>
+                <p>
+                  What Time(s)?: <br> <input type="time" name="times" id="times" value="1" >
+                </p>
+                Taken with?: <br>
+                <input type="checkbox" name="food" value="food"> Food<br>
+                <input type="checkbox" name="water" value="food"> Water 
+                <p>
+                  Special Instructions: <br> <input type="text" name="inst" id="inst" placeholder="">
+                </p>
+
+                <hr>
+              </div>
+            </form>        
+-->
+
+    </div>
+    <!-- JAVASCRIPT-->
+  <script src="main.js"></script>
+  
+</body>
+</html>
